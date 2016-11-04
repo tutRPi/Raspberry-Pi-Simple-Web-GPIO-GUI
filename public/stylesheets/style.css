@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+div[class^="col-"] {
+    padding: 4px 8px;
+    background-color: #5F8645;
+    color: #E9E5D2;
+    line-height: 34px;
+    margin-bottom: 2px;
+    height: 43px;
+}
+div.row > div[class^="col-"]:nth-child(odd) {
+    border-right: 1px solid white;
+}
+div.row > div[class^="col-"]:nth-child(even) {
+    border-left: 1px solid white;
+}
