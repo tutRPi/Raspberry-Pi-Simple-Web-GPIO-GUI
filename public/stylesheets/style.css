@@ -22,3 +22,8 @@ div.row > div[class^="col-"]:nth-child(odd) {
 div.row > div[class^="col-"]:nth-child(even) {
     border-left: 1px solid white;
 }
+
+div.row > div.pin {
+    background-color: #000;
+    color: #FFF;
+}
