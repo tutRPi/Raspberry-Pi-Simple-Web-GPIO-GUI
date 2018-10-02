@@ -9,6 +9,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var ajax = require('./routes/ajax');
 
+require('dotenv').config();
+
 var app = express();
 
 // view engine setup
@@ -59,5 +61,5 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(80);
+app.listen(process.env.PORT || 80);
 module.exports = app;
