@@ -3,10 +3,19 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+@media (max-width: 718px) {
+    body {
+        padding: 0px;
+    }
+}
+
 a {
   color: #00B7FF;
 }
 
+.container {
+    max-width: 768px;
+}
 
 div[class^="col-"] {
     padding: 4px 8px;
