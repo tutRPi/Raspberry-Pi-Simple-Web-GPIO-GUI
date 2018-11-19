@@ -36,3 +36,33 @@ div.row > div.pin {
     background-color: #000;
     color: #FFF;
 }
+
+div.row > div.pin span.pin {
+    border: 5px solid white;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+div.row > div.pin span.pin.first {
+    border-radius: 0px;
+}
+
+div.row > div.pin span.pin.gnd {
+    border-color: gray;
+}
+
+div.row > div.pin span.pin.power3v {
+    border-color: darkred;
+}
+
+div.row > div.pin span.pin.power5v {
+    border-color: red;
+}
+
+div.row > div.pin span.pin.gpio {
+    border-color: green;
+}
+
+div.row > div.pin span.pin.i2c {
+    border-color: yellow;
+}
