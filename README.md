@@ -5,7 +5,7 @@ Tutorial (english): https://tutorials-raspberrypi.com/setup-raspberry-pi-node-js
 
 Tutorial (german): http://tutorials-raspberrypi.de/raspberry-pi-nodejs-webserver-installieren-gpios-steuern
 
-![Raspberry Pi GPIO GUI](http://tutorials-raspberrypi.de/wp-content/uploads/Raspberry-Pi-Node.js-Webserver-GPIOS.png)
+![Raspberry Pi GPIO GUI](./screenshot.png)
 
 ## Settings
 
