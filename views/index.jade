@@ -283,4 +283,16 @@ block content
                 input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="21").gpio-checkbox
                 div.pull-right 
                     span GPIO 21 (SCKL)
-            
+
+        div.row
+            div.col-xs-6.col-sm-5.col-md-5.col-lg-5
+                span Ground
+            div.col-sm-1.hidden-xs.pin
+                div.text-center
+                    span.pin.gnd 39
+            div.col-sm-1.hidden-xs.pin
+                div.text-center
+                    span.pin.gpio 40
+            div.col-xs-6.col-sm-5.col-md-5.col-lg-5
+                input(data-toggle="button" data-onstyle="success" data-offstyle="danger" type="button" data-gpio="21")#blink
+                    span ブリンク

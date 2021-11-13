@@ -14,5 +14,21 @@ $(function(){
                 alert("Error");
             }
         });
-    });				
+    });	
+    $('#blinkLed').on('change', function(e){        
+        var data = {};
+        data.action = "blink";
+        data.gpio = $(this).data("gpio");
+        data.status = this.checked;
+        console.log(data);
+        $.ajax({
+            type: 'POST',
+            data: JSON.stringify(data),
+            contentType: 'application/json',
+            url: '/ajax',						
+            error: function(data) {
+                alert("Error");
+            }
+        });
+    });					
 });
